@@ -5,6 +5,7 @@ function factorial(n) {
   }
   return n * factorial(n - 1);
 }
+
 console.log(factorial(5));
 
 //Without recursion
@@ -15,4 +16,5 @@ function factorialIterative(n) {
   }
   return result;
 }
+
 console.log(factorialIterative(4));

@@ -7,4 +7,5 @@ function minMax(arr) {
   }
   return { min, max };
 }
+
 console.log(minMax([3, 5, 1, 8])); // {min:1, max:8}

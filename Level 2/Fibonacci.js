@@ -5,4 +5,5 @@ function fibonacci(n) {
   }
   return arr;
 }
+
 console.log(fibonacci(6));

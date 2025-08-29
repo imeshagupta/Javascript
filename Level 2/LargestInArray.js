@@ -7,5 +7,4 @@ function largestInArray(arr) {
   }
   return max;
 }
-
 console.log(largestInArray([3, 9, 2, 11, 7]));

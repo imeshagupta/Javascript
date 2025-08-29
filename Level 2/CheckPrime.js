@@ -5,4 +5,5 @@ function isPrime(num) {
   }
   return true;
 }
+
 console.log(isPrime(7));

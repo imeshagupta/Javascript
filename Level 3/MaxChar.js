@@ -9,5 +9,6 @@ function maxChar(str) {
       char = s;
     }
   }
-  return char;
+  return { character: char, count: max };
 }
+console.log(maxChar("apple"));

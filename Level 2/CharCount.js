@@ -5,4 +5,5 @@ function charCount(str) {
   }
   return map;
 }
+
 console.log(charCount("hello"));
