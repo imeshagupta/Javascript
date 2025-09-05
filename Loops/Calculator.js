@@ -6,6 +6,7 @@
 5 -> modulus
 6 -> exit
 Kuch or press krne pr invalid input
+
 jab operation hojaye to question aaye do you want to continue y/n
 */
 

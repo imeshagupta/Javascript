@@ -15,7 +15,7 @@ console.log(Math.ceil(a / b)); //3
 console.log(10.1); //11
 console.log(10.9); //11
 
-// round to the nearest integer
+// round to the nearest integer (5-9 upper round krega aur 1-4 tak lower round karega)
 console.log(Math.round(a / b)); //2
 console.log(10.5); //11
 console.log(10.4); //10
@@ -42,13 +42,14 @@ console.log(Math.abs(7)); //7
 console.log(Math.abs(-3.5)); //3.5
 console.log(Math.abs(3.5)); //3.5
 
+//Math.random() 0 to 1 ki values deta hai excluding 0 and 1
 console.log(Math.random()); //0.0 to 0.999999...
 console.log(Math.random() * 10); //0.0 to 9.999999...
 console.log(Math.floor(Math.random() * 100)); //0 to 99
 console.log(Math.floor(Math.random() * 10) + 1); //1 to 10
 console.log(Math.floor(Math.random() * 10) + 20); //20 to 29
 
-// like kabhi otp bnana ho to usme random or trunc ka usekr skte hai. trunc isliye kyuki decimal htane ke liye
+// like kabhi otp bnana ho to usme random or trunc ka use kr skte hai. trunc isliye kyuki decimal htane ke liye
 let otp = Math.trunc(Math.random() * 9000 + 1000); //1000 to 10000; always excluding 1000 and 10000
 console.log(otp);
 

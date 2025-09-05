@@ -1,13 +1,13 @@
 // empty array ka mtlb hai jo dynamic array hai ki iski length defined nhi hai i.e. fixed nhi hai
 let arr = [];
 
-//push array ke end me element add karta hai
+//push - array ke end me element add karta hai
 console.log(arr.push(1)); // 1
 console.log(arr); // [ 1 ]
 console.log(arr.push(2));
 console.log(arr); // [ 1, 2 ]
 
-//pop array ke end se element remove karta hai
+//pop - array ke end se element remove karta hai
 console.log(arr.pop());
 console.log(arr); // [ 1 ]
 
@@ -23,7 +23,7 @@ arr[140] = 100; // it will create empty slots from index 2 to 139
 console.log(arr);
 
 // different method to create array
-// but it is also not fixed, it is also dynamic array
+// but it is not fixed also, it is also dynamic array
 // we can push elements in it or add just by assigning value to index
 let arr_new = new Array(3);
 
