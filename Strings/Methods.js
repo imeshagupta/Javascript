@@ -60,3 +60,7 @@ console.log(s.charAt(2)); //u
 //Method 16
 //charCodeAt(index) - returns unicode value of character
 console.log(s.charCodeAt(0)); //101 because ASCII value of e is 101
+
+//Method 17
+//String.fromCharCode - converts ASCII code value to String character
+console.log(String.fromCharCode(s.charCodeAt(2)));

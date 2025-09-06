@@ -42,3 +42,9 @@ console.log(arr_new);
 let arr2 = new Array(3);
 arr2.push(10);
 console.log(arr2); // It will push 10 to the end of array i.e. index 2
+
+//fill() method
+//arr.fill(value,start,end)
+//value --> jo value deni hai
+//start --> kis index se shuru hai (default 0)
+//end --> kis index tak exclusive bharna hai(default.arr.length)
