@@ -1,0 +1,2 @@
+Time Complexity - 
+Amount of time taken as the function of input size(n)

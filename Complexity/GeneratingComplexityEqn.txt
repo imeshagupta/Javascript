@@ -1,0 +1,46 @@
+#Case 1 :
+Agar teen loop n times chal rhe hai aur nested na hokar parallel chal rhe hai like
+for(1-->n){
+
+}
+for(1-->n){
+
+}
+for(1-->n){
+
+}
+To is case me multiply nhi hoga balki plus hoga i.e.
+
+n + n + n = 3n
+
+but 3 negligible hai islye isko n hi read krege aur time complexity ho jayegi O(n)
+
+---------------------------------------
+#Case 2:
+Agar aisa scenario ho jaha teen loop hai pr do nested hai aur ek parallel, see
+
+for(1--->n){
+    for(1--->n){
+
+    }
+}
+for(1-->n){
+
+}
+
+To nested loop ki hogi n^2 aur parallel wle ki n. dono ki hogi n^2 + n. Aur aise cases me ham consider karte hai higher degree wale ko, to time complexity ho jayegi n^2.
+
+
+
+#Case 3:
+
+3n^2/2 + nlogn + n
+
+to iski time complexity hogi n^2.
+
+
+#Case 4:
+
+nlogn + logn + O(1)
+
+To iski time complexity hogi nlogn

@@ -1,0 +1,11 @@
+Koi array hai like ye
+
+let arr = [10,5,1,12,9]
+
+To isko do parts me divide krdo ek to hoga sorted aur ek unsorted.
+
+Basically abhi sorted me kuch bhi nhi hai. Unsorted abhi pura arr hi hai.
+
+Unsorted ka first element i.e. 10 ko select kro wo ith element hoga aur 1st index element waha se lekar arr ke end tak dekhna hai ki konse index ka element minimum hai. Aur jo minimum hoga usko first index element se swap krdo.
+
+To iske baad sorted part increase ho jayega aur unsorted part decrease ho jayega.

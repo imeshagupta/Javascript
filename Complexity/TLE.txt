@@ -1,0 +1,31 @@
+Har ek input ke liye ek particular time complexity determined hoti hai
+
+TLE se bachne ke liye constraints dekho. Usko exceed mt kro.
+
+
+n<=10^8     ----->  log(n) or O(1)
+
+n<=10^6     -----> O(n), n.logn
+
+n<=10^4     ----->  O(n^2)
+
+n<=10^2      -----> O(n^3)
+
+n<=2000      -----> O(n^4)
+
+n<=100      -----> x^n
+
+n<=10-50     ----->   n!
+
+Bs yaad rkhna ki jis ke aage jo time complexity likhi hai wo us case ka worst case scenario hai to isse niche nhi jana hai. 
+
+Series ye chalti hai
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(n^3)
+O(n^4)
+x^n
+n!

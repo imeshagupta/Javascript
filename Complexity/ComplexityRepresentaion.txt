@@ -1,0 +1,7 @@
+Three types -
+
+1. Big O - Worst Case scenario (upper bound)
+
+2. Theta - Average case scenario (avg)
+
+3. Omega - Best case scenario (lower bound)

@@ -1,0 +1,9 @@
+let arr = [10,5,1,8,13,7]
+
+pointer i  start hoga index 1 se and let key = arr[i]
+
+pointer j start hoga i-1 se.
+
+Phle ye check kro ki j range me hai ki nhi.(In the situation -1 index pe to nhi chli gayi) Then ye check kro -
+Kya jth element key se badi hai kya? then
+arr[j+1] = arr[j]

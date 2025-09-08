@@ -1,0 +1,24 @@
+1.) Constant time - O(1)
+    i) Jab ek operation ho.
+    ii) jab bhi n ki exact value given hai to constant time hoga. That means n ki value define hai.
+
+2.) Linear Time Complexity - O(n)
+    Jab n ki value define na ho. means jaise jaise number of operations badhege waise hi n ki value badh rhi hai to n time complexity hogi. 
+
+3.) Quadratic time complexity - O(n^2)
+    Jab bhi nested looping hogi, jab outer loop or inner loop n times chalega to time complexity n square hogi. Because n*n=n^2
+
+4.) Cubic time complexity - O(n^3)
+    Jab teen loop nested ho aur har loop n times chale to waha time complexity n cube hogi i.e. n^3
+
+5.) Logarithmic time complexity - O(log n)
+    Jb bhi n ki value drastically kam hui (number of operations km hote jaye) to O(log n) time complexity hoti hai. Example - Binary search
+
+6.) n(log n) time complexity
+    Jb koi loop jo n times chale or uske andar log n wali time complexity ho to waha n(log n) time complexity hogi
+
+7.)Exponential time complexity (constant ki power n) - 2^n
+
+8.) Factorial time complexity - n!
+    For example n = 5
+    Jab n ki value 5 ho or operations 120 lage to factorial time complexity

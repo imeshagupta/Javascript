@@ -1,0 +1,13 @@
+#CASE 1:
+
+for(1--->n){
+    let temp;
+}
+
+Loop n times chal rha hai. Aur temp har bar new bnta hai.
+Space complexity constant aayegi.
+
+
+#CASE 2:
+
+agar kisi question me solve krne ke liye same length ka naya array(naya space) bna liya to us case me space complexity hogi - n
